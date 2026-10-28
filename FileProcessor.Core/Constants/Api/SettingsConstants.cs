@@ -88,6 +88,7 @@
 
         // 🧼 Respuestas y Configuración SOAP (Legacy)
         public const string SOAP_DEFAULT_NAMESPACE = "http://tempuri.org/";
+        public const string SOAP_ACTION_CARGA_DOCUMENTO = "http://tempuri.org/IWsGenerarPDFexterno/CargaDocumentoExterno";
         public const string SOAP_RESPONSE_STATUS_OK = "OK";
         public const string SOAP_RESPONSE_STATUS_ERROR = "ERROR";
 

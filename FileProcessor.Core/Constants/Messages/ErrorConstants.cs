@@ -45,7 +45,6 @@
         public const string REQUEST_RAMO_INVALID = "El Ramo especificado debe ser un valor numérico mayor a cero.";
         public const string REQUEST_PRODUCTO_INVALID = "El Producto especificado debe tener algun valor numérico.";
         public const string REQUEST_POLICY_REQUIRED = "El número de Póliza especificado debe ser un valor numérico mayor a cero.";
-        public const string REQUEST_CERTIFICATE_REQUIRED = "El número de Certificado especificado debe ser un valor numérico mayor a cero.";
         public const string REQUEST_TEMPLATE_NAME_REQUIRED = "El nombre de la plantilla del documento es obligatorio.";
         public const string REQUEST_CONTRACTOR_DOC_REQUIRED = "El documento del contratante es obligatorio.";
         public const string REQUEST_USER_NAME_REQUIRED = "El nombre del usuario es obligatorio.";

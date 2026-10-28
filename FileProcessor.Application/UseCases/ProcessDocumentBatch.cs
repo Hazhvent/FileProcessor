@@ -232,11 +232,6 @@ namespace FileProcessor.Application.UseCases
                     .Must(p => long.TryParse(p, out var val) && val > 0)
                     .WithMessage(ErrorConstants.REQUEST_POLICY_REQUIRED);
 
-                doc.RuleFor(d => d.Certificado)
-                    .NotEmpty().WithMessage(ErrorConstants.REQUEST_CERTIFICATE_REQUIRED)
-                    .Must(c => int.TryParse(c, out var val) && val > 0)
-                    .WithMessage(ErrorConstants.REQUEST_CERTIFICATE_REQUIRED);
-
                 // Campos opcionales iniciales según legado (se asignan defaults si vienen vacíos)
                 doc.RuleFor(d => d.GeneraSaludo)
                     .Must(g => string.IsNullOrWhiteSpace(g) ||

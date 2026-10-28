@@ -36,7 +36,7 @@ namespace FileProcessor.Application.Configuration
             ((IApplicationBuilder)app).UseSoapEndpoint<IWsGenerarPDFexterno>(options =>
             {
                 options.Path = endpointPath;
-                options.SoapSerializer = SoapSerializer.XmlSerializer;
+                options.SoapSerializer = SoapSerializer.DataContractSerializer;
                 options.CaseInsensitivePath = true;
             });
         }
