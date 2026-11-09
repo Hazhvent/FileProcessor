@@ -1,0 +1,6 @@
+<Solution>
+  <Project Path="../FileProcessor.Application/FileProcessor.Application.csproj" />
+  <Project Path="../FileProcessor.Core/FileProcessor.Core.csproj" />
+  <Project Path="../FileProcessor.Infrastructure/FileProcessor.Infrastructure.csproj" />
+  <Project Path="FileProcessor.csproj" />
+</Solution>
